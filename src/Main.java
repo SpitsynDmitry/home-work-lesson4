@@ -19,5 +19,23 @@ public class Main {
         System.out.println ("Общий вес боксеров " + weightOfAllBoxers);
         System.out.println ("Разница в весе боксеров " + weightDifference);
 
+        // Задание 3
+        int bananaWeight = 80;
+        int milkWeight = 105;
+        int iceCreamWeight = 100;
+        int eggsWeight = 70;
+        int weightOffAllBananas = bananaWeight * 5;
+        int weightOffAllMilk = milkWeight * 2;
+        int weightOffAllIceCream = iceCreamWeight * 2;
+        int weightOffAllEggs = eggsWeight * 4;
+        int weightOffAllProducts = weightOffAllBananas + weightOffAllMilk + weightOffAllIceCream + weightOffAllEggs;
+        System.out.println ("Общий вес продуктов в граммах " + weightOffAllProducts);
+        double weightOffAllProductsInKg = weightOffAllProducts * 0.001;
+        System.out.println ("Общий вес продуктов в кг " + weightOffAllProductsInKg);
+
+        // Задание 4
+
+
+
     }
 }
