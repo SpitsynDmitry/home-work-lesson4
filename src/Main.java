@@ -46,6 +46,35 @@ public class Main {
         double averageDays = (daysQuantity1 + daysQuantity2) / 2;
         System.out.println ("Среднее количество дней " + averageDays + " дня");
 
+        // Задание 5
+        int mashaSalary  = 67760;
+        int denisSalary  = 83690;
+        int kristinaSalary = 76230;
+        int annualMashaSalary = mashaSalary * 12;
+        int annualDenisSalary = denisSalary * 12;
+        int annualKristinaSalary = kristinaSalary * 12;
+        double mashaSalaryIncreases = mashaSalary * 1.1;
+        double denisSalaryIncreases = denisSalary * 1.1;
+        double kristinaSalaryIncreases = kristinaSalary * 1.1;
+        System.out.println ("Маша теперь получает  " + mashaSalaryIncreases + " руб");
+        System.out.println ("Денис теперь получает " + denisSalaryIncreases + " руб");
+        System.out.println ("Кристина теперь получает " + kristinaSalaryIncreases + " руб");
+        double annualMashaSalaryIncreases = mashaSalaryIncreases * 12;
+        double annualDenisSalaryIncreases = denisSalaryIncreases * 12;
+        double annualKristinaSalaryIncreases= kristinaSalaryIncreases * 12;
+        double mashaSalaryDifference = annualMashaSalaryIncreases - annualMashaSalary;
+        double denisSalaryDifference = annualDenisSalaryIncreases - annualDenisSalary;
+        double kristinaSalaryDifference = annualKristinaSalaryIncreases - annualKristinaSalary;
+        System.out.println (" Годовой доход Маши вырос на " + mashaSalaryDifference + " руб");
+        System.out.println (" Годовой доход Дениса вырос на " + denisSalaryDifference + " руб");
+        System.out.println (" Годовой доход Кристины вырос на " + kristinaSalaryDifference + " руб");
+
+
+
+
+
+
+
 
 
 
