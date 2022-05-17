@@ -34,6 +34,18 @@ public class Main {
         System.out.println ("Общий вес продуктов в кг " + weightOffAllProductsInKg);
 
         // Задание 4
+        int targetWeight = 7;
+        double dailyWeightLossesGram1 = 250;
+        double dailyWeightLossesKg1 = dailyWeightLossesGram1 * 0.001;
+        double dailyWeightLossesGram2 = 500;
+        double dailyWeightLossesKg2 = dailyWeightLossesGram2 / 1000;
+        double daysQuantity1 = targetWeight / dailyWeightLossesKg1;
+        double daysQuantity2 = targetWeight / dailyWeightLossesKg2;
+        System.out.println ("Количество дней при потере 250 грамм " + daysQuantity1 + " дней");
+        System.out.println ("Количество дней при потере 500 грамм " + daysQuantity2 + " дней");
+        double averageDays = (daysQuantity1 + daysQuantity2) / 2;
+        System.out.println ("Среднее количество дней " + averageDays + " дня");
+
 
 
 
