@@ -9,8 +9,7 @@ public class Main {
         float saltWeight = 1.5f;
         boolean dogIsAdult = dog < 10;
         char bar = 36;
-        System.out.println (bar);
-
+         char bar1 = 36;
         // Задание 2
         double boxer1 = 78.2;
         double boxer2 = 82.7;
